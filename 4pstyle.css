@@ -25,19 +25,15 @@
         height: 5rem;
         width: 5rem;
       }
-      .heights{
-        height:10cm !important;
-      }
+      
       .empty{
         height:1.5cm;
       }
   }
   .empty{
-    height:5cm;
+    height:1.5cm;
   }
-  .heights{
-    height:5cm !important;
-  }
+  
   a:hover{
     color:green;
   }

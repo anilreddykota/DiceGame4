@@ -230,6 +230,10 @@ function gameover() {
     document.getElementById("here4").hidden = true;
     document.getElementById("restart").hidden = false;
     document.getElementById("mybtn").hidden = false;
+    document.getElementById("demo1").src = "assets/favicon.png";
+    document.getElementById("demo2").src = "assets/favicon.png";
+    document.getElementById("demo3").src = "assets/favicon.png";
+    document.getElementById("demo4").src = "assets/favicon.png";
 
     document.getElementById("mybtn").innerHTML =
       " game over ! <br>" + "refresh page to start new game";

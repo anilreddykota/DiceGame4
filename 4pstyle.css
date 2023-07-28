@@ -1,0 +1,43 @@
+
+.body{
+    font-family: Fredoka;
+    background-color: #3385ff;
+}
+.dice {
+    text-align: center;
+    display: inline-block;
+  }
+  foot{
+    margin-top: 5%;
+    color: #3d8595;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    font-size:2rem;
+  
+  }
+  img{
+    height: 10rem;
+    width: 10rem;
+  }
+  @media only screen and (max-width: 600px) {
+    img{
+        height: 5rem;
+        width: 5rem;
+      }
+      .heights{
+        height:10cm !important;
+      }
+      .empty{
+        height:1.5cm;
+      }
+  }
+  .empty{
+    height:5cm;
+  }
+  .heights{
+    height:5cm !important;
+  }
+  a:hover{
+    color:green;
+  }

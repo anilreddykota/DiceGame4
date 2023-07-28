@@ -1,0 +1,99 @@
+.brand{
+    font-size: 10rem;
+    font-weight: 700;
+    
+}
+b{
+    margin-top: 2cm;
+    padding: 0.4cm 2.3cm 0.4cm 2.3cm;
+    border-radius: 15px;
+    size: 1cm;
+    color: black;
+    font-size: 3rem;
+    border: black solid 2px;
+}
+b:hover{
+    border-radius: 100px;
+    animation-duration: 100ms;
+    padding: 0.4cm 2cm 0.4cm 2cm;
+
+}
+.linkfor{
+    text-decoration: none;
+}
+
+.pop-1{
+    background-color: white;
+    width: 10cm;
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+    height: 10cm;
+    border: 2px solid black;
+}
+.pop-2{
+    background-color: white;
+    width: 10cm;
+    position: absolute;
+    top: 20rem;
+    right: 2rem;
+    border: 2px solid black;
+    height: 10cm;
+}
+p{
+    font-size: 1.5rem !important;
+    padding: 10px;
+    
+}
+p img {
+
+    height :7cm;
+    width :7cm !important;
+}
+@media screen and (max-width:1180px) {
+    .pop-1{
+        background-color: white;
+        width: 10cm;
+        position: relative;
+        left: 20vw;
+        
+    }
+    .pop-2{
+        background-color: white;
+        width: 10cm;
+        position: relative;
+        left: 20vw;}
+        
+    
+
+    
+}
+.pop{
+    display: flexbox;
+    direction: ltr;
+
+}
+@media screen and (min-width:382) {
+    .btndiv{
+    
+        margin: 0cm;
+    }
+    .pop-1{
+        background-color: white;
+        width: 10cm;
+        position:absolute;
+        left: 0vw;
+        
+    }
+    .pop-2{
+        background-color: white;
+        width: 10cm;
+        position: absolute;
+        left: 0vw;}
+
+
+    
+}
+i{
+    font-size: 2rem !important;
+}
